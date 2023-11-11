@@ -3,7 +3,7 @@ import JSZip from 'jszip';
 let isNode = typeof module !== 'undefined' && module.exports,
 	fs;
 if (isNode) {
-	fs = require('fs');
+	// fs = require('fs');
 }
 
 const RELS_XML = () => `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
